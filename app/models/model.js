@@ -9,5 +9,6 @@ db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
 db.user = require("./user")(sequelize, Sequelize);
+// git testing
 
 module.exports = db;
